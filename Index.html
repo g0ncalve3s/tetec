@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo Aventura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Turismo Aventura</h1>
+        <nav>
+            <ul>
+                <li><a href="#destinos">Destinos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="destinos">
+        <h2>Destinos Populares</h2>
+        <div class="destino">
+            <h3>Praia do Forte</h3>
+            <img src="praia-do-forte.jpg" alt="Praia do Forte" class="destino-imagem"> <!-- Espaço para imagem -->
+            <p>Um paraíso tropical com águas cristalinas e areia branca.</p>
+        </div>
+        <div class="destino">
+            <h3>Serra Gaúcha</h3>
+            <img src="serra-gaucha.jpg" alt="Serra Gaúcha" class="destino-imagem"> <!-- Espaço para imagem -->
+            <p>Famosa por suas montanhas, vinhos e clima frio.</p>
+        </div>
+        <div class="destino">
+            <h3>Amazônia</h3>
+            <img src="amazonas.jpg" alt="Amazônia" class="destino-imagem"> <!-- Espaço para imagem -->
+            <p>Explore a floresta mais rica em biodiversidade do mundo.</p>
+        </div>
+    </section>
+    
+
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="response-message"></p>
+    </section>
+
+    
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>

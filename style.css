@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #0056b3; /* Cor de fundo mais escura */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px; /* Adiciona padding aos links */
+    border-radius: 5px; /* Borda arredondada */
+    transition: background-color 0.3s; /* Efeito de transição */
+}
+
+nav a:hover {
+    background-color: #007BFF; /* Cor de fundo ao passar o mouse */
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.destino {
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #007BFF; /* Borda ao redor do formulário */
+    border-radius: 5px;
+    padding: 20px; /* Espaçamento interno */
+    background-color: #f9f9f9; /* Cor de fundo do formulário */
+}
+
+form label {
+    margin: 5px 0;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 8px; /* Diminui o tamanho do botão */
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+.destino-imagem {
+    width: 40%; /* Faz a imagem ocupar toda a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 5px; /* Borda arredondada nas imagens */
+    margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+}
+#destinos {
+    background-color: #e9f5ff; /* Fundo claro para a seção */
+    border: 1px solid #007BFF; /* Borda ao redor da seção */
+    border-radius: 5px; /* Borda arredondada */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.destino h3 {
+    font-size: 1.5em; /* Aumenta o tamanho da fonte do título */
+    color: #0056b3; /* Cor do título */
+    
+    padding-bottom: 5px; /* Espaçamento abaixo do título */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
